@@ -27,21 +27,21 @@ Developing this project was a fantastic exercise in problem-solving. Some of the
 4. **JavaScript Logic**: Implementing JavaScript logic to dynamically create the story based on user input was complex. It required a good understanding of event listeners and manipulating DOM elements.
 
 ## Resources Used
-- [CSS Box Shadows]("https://www.w3schools.com/css/css3_shadows_box.asp")
-- [CSS Background Images]("https://www.w3schools.com/cssref/pr_background-image.php")
-- [Google Fonts]("https://fonts.google.com/")
-- [HTML Form Elements]("https://www.w3schools.com/html/html_forms.asp")
-- [JavaScript Event Listeners]("https://www.w3schools.com/js/js_htmldom_eventlistener.asp")
-- [CSS background Property]("https://www.w3schools.com/cssref/css3_pr_background.php")
-- [HTML basics]("https://www.w3schools.com/cssref/css3_pr_background.php](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics")
-- [CSS basics]("https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics")
-- [JavaScript Guide]("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide")
-- [Web forms — Working with user data]("https://developer.mozilla.org/en-US/docs/Learn/Forms")
-- [JavaScript Forms]("https://www.w3schools.com/js/js_validation.asp")
-- [CSS layout]("https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout")
-- [A Complete Guide to Flexbox]("https://css-tricks.com/snippets/css/a-guide-to-flexbox/")
-- [CSS Box Shadow]("https://css-tricks.com/snippets/css/css-box-shadow/")
-- [To help write stories - Bard AI]("https://bard.google.com/")
+- [CSS Box Shadows](https://www.w3schools.com/css/css3_shadows_box.asp)
+- [CSS Background Images](https://www.w3schools.com/cssref/pr_background-image.php)
+- [Google Fonts](https://fonts.google.com/)
+- [HTML Form Elements](https://www.w3schools.com/html/html_forms.asp)
+- [JavaScript Event Listeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+- [CSS background Property](https://www.w3schools.com/cssref/css3_pr_background.php)
+- [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [CSS basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [JavaScript Forms](https://www.w3schools.com/js/js_validation.asp)
+- [CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Box Shadow](https://css-tricks.com/snippets/css/css-box-shadow/)
+- [To help write stories - Bard AI](https://bard.google.com/)
 
 
   
