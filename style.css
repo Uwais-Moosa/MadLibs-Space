@@ -56,7 +56,7 @@ header .navbar a:hover {
 
 #hero-section {
 	position: relative;
-	background: url("hero.jpg") no-repeat center center fixed;
+	background: url("assets/hero.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 80vh;
 	display: flex;
