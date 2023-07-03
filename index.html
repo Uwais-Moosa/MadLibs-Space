@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html" class="logo" alt="logo">MadLibs.</a>
+			<nav>
+				<ul id="navbar">
+					<li><a href="#" class="nav-link">Home</a></li>
+					<li><a href="#about-section" class="nav-link">About</a></li>
+					<li><a href="#game-section" class="nav-link">Game</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="hero-section">
+				<h1 class="hero-title">Start your story</h1>
+			</section>
+
+			<section id="about-section">
+				<div class="content">
+					<h2 class="section-title">About the Game</h2>
+					<section class="gallery-section">
+						<img src="gallery1.jpg" alt="Space photo 1" />
+						<img src="gallery2.jpg" alt="Space photo 2" />
+						<img src="gallery3.jpg" alt="Space photo 3" />
+					</section>
+					<section id="textbox-section">
+						<p>
+							Mad Libs is a fun and creative game where you provide clues to
+							generate hilarious, unique, and unpredictable stories. Choose from
+							a variety of story types, enter your creative words, and let the
+							fun begin!
+						</p>
+					</section>
+				</div>
+			</section>
+			<section id="game-section">
+				<h2 class="section-title">Space Mad Libs Game</h2>
+				<form id="game-form">
+					<label for="storyType">Choose an expedition:</label>
+					<select
+						id="storyType"
+						required
+						title="Select the type of story you'd like to create. Each story type uses your words in a different way."
+					>
+						<option value="">Select...</option>
+						<option value="story1">Space Travel 1</option>
+						<option value="story2">Space Travel 2</option>
+						<option value="story3">Space Travel 3</option>
+						<option value="story4">Space Travel 4</option>
+						<option value="story5">Space Travel 5</option>
+						<option value="story6">Space Travel 6</option>
+						<option value="story7">Space Travel 7</option>
+						<option value="story8">Space Travel 8</option>
+						<option value="story9">Space Travel 9</option>
+						<option value="story10">Space Travel 10</option></select
+					><br />
+
+					<input
+						id="astronaut"
+						type="text"
+						placeholder="Enter an astronaut's name"
+						required
+					/><br />
+					<input
+						id="alienSpecies"
+						type="text"
+						placeholder="Enter a name for an alien species"
+						required
+					/><br />
+					<input
+						id="planet"
+						type="text"
+						placeholder="Enter a planet name"
+						required
+					/><br />
+					<input
+						id="verb"
+						type="text"
+						placeholder="Enter a verb"
+						required
+					/><br />
+					<input
+						id="adjective"
+						type="text"
+						placeholder="Enter an adjective"
+						required
+					/><br />
+					<input
+						id="spaceObject"
+						type="text"
+						placeholder="Enter a space object"
+						required
+					/><br />
+					<button type="submit">Generate Story</button>
+				</form>
+			</section>
+			<section id="result-section">
+				<div class="content">
+					<h3 class="section-title">Uncover your story!</h3>
+					<p id="result-story"></p>
+					<section class="gallery-section">
+						<img src="gallery4.jpg" alt="Space photo 4" />
+						<img src="gallery5.jpg" alt="Space photo 5" />
+						<img src="gallery6.jpg" alt="Space photo 6" />
+					</section>
+				</div>
+			</section>
+			<script src="script.js" defer></script>
+		</main>
+		<footer>
+			<p>Created by Uwais Moosa</p>
+		</footer>
+	</body>
+</html>
