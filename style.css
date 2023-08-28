@@ -175,11 +175,11 @@ header .navbar a:hover {
 }
 
 footer {
-	background-color: #fff;
+	background-color: #3a1f92;
 	padding: 20px 40px;
 	text-align: center;
 	border-top: 1px solid #ddd;
-	color: #3a1f92;
+	color: #fff;
 	font-size: 20px;
 	font-weight: 500;
 }
