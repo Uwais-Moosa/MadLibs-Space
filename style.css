@@ -15,6 +15,7 @@ body {
 	padding: 30px;
 }
 
+/* Header */
 header {
 	padding: 20px 40px;
 	display: flex;
@@ -24,6 +25,17 @@ header {
 	align-items: center;
 }
 
+.logo {
+	color: #3a1f92;
+	font-size: 40px;
+	font-weight: 800;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	text-decoration: none;
+}
+
+/* Navbar */
 #navbar {
 	display: flex;
 	justify-content: center;
@@ -44,16 +56,7 @@ header .navbar a:hover {
 	color: #2e1876;
 }
 
-.logo {
-	color: #3a1f92;
-	font-size: 40px;
-	font-weight: 800;
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	text-decoration: none;
-}
-
+/* Hero */
 #hero-section {
 	position: relative;
 	background: url("assets/hero.jpg") no-repeat center center fixed;
@@ -69,6 +72,7 @@ header .navbar a:hover {
 	display: none;
 }
 
+/* Sections */
 .section-title {
 	color: #3a1f92;
 	font-size: 35px;
@@ -80,6 +84,7 @@ header .navbar a:hover {
 	font-size: 16px;
 	color: #2d2b3a;
 }
+
 #about-section {
 	display: flex;
 	align-items: center;
@@ -91,6 +96,7 @@ header .navbar a:hover {
 #about-section .content {
 	padding-left: 20px;
 }
+
 .gallery-section {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -105,6 +111,7 @@ header .navbar a:hover {
 	object-fit: cover;
 	border-radius: 20px;
 }
+
 #textbox-section {
 	background-color: #3a1f92;
 	color: #fff;
@@ -147,10 +154,16 @@ header .navbar a:hover {
 	border-radius: 20px;
 	font-size: 18px;
 	font-weight: 500;
+	transition: background-color 0.3s ease;
 }
 
 #game-form button:hover {
 	background-color: #2e1876;
+}
+
+#game-form button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(58, 31, 146, 0.6);
 }
 
 #result-story {
@@ -174,6 +187,7 @@ header .navbar a:hover {
 	padding-left: 20px;
 }
 
+/* Footer */
 footer {
 	background-color: #3a1f92;
 	padding: 20px 40px;
@@ -184,6 +198,7 @@ footer {
 	font-weight: 500;
 }
 
+/* Media queries */
 @media screen and (max-width: 767px) {
 	#hero-section .hero-title {
 		display: block;
