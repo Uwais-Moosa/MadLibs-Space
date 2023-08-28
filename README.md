@@ -9,6 +9,7 @@ Space Mad Libs is a fun and engaging game that allows players to create their ow
 1. Select the type of expedition you'd like to embark on.
 2. Fill in the provided fields with suitable words.
 3. Click "Generate Story" and enjoy your own unique space adventure!
+4. Click here to discover the website: [ https://uwais-moosa.github.io/MadLibs-Space/]( https://uwais-moosa.github.io/MadLibs-Space/)
    
 ## Game Rules
 
